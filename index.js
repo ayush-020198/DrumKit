@@ -4,11 +4,13 @@ for(var i=0; i<drumClickLength; i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         var buttonInnerHTML = this.innerHTML;
         makeSound(buttonInnerHTML);
+        animationButton(buttonInnerHTML);
     })
 }
 
 document.addEventListener("keypress", function(event){
     makeSound(event.key);
+    animationButton(event.key);
 })
 
 function makeSound(key)
@@ -41,5 +43,12 @@ switch(key){
     case "l":
         var kick = new Audio(src="sounds/kick-bass.mp3");
         kick.play();
-        break;       
+        break;   
+    default:
+        console.log("wrong key");    
 }}
+
+function animationButton (currentKey) {
+    document.querySelector("."+currentKey).classList.add("pressed");
+    setTimeout (function() {document.querySelector("."+currentKey).classList.remove("pressed")}, 100);
+} 
