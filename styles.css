@@ -12,6 +12,8 @@ h1 {
 }
 
 footer {
+  position: relative;
+  top:-50px;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   font-size: 2rem;
@@ -132,4 +134,13 @@ footer {
 .nolink{
   text-decoration: none;
   color: #fff;
+}
+
+.show{
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  font-size: 2rem;
+  position: relative;
+  left: 0px;
+  top: -140px;
 }
