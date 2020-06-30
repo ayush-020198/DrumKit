@@ -2,7 +2,7 @@
 A drum kit to start your drum skills.
 
 ## Snapshot
-![img](https://user-images.githubusercontent.com/56764533/86095402-7c9ecd00-bacf-11ea-921c-c67545c159dd.png)
+![img](https://user-images.githubusercontent.com/56764533/86095549-b243b600-bacf-11ea-9d60-1b6d5b085c6b.png)
 
 ## Usage
 It uses DOM manipulation. Practical usage here will help you in getting a better understanding of DOM manipulation.
