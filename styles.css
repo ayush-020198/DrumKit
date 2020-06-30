@@ -80,3 +80,53 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+
+
+.center {
+  width: 150px;
+  height: 60px;
+  position: relative;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  align-items: center;
+  margin-left: 550px;
+  transition: 1s ease-in-out;
+}
+
+
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.nolink{
+  text-decoration: none;
+  color: #fff;
+}

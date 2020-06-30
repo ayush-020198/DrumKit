@@ -52,3 +52,5 @@ function animationButton (currentKey) {
     document.querySelector("."+currentKey).classList.add("pressed");
     setTimeout (function() {document.querySelector("."+currentKey).classList.remove("pressed")}, 100);
 } 
+
+
