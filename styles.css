@@ -98,6 +98,9 @@ footer {
 }
 
 .btn {
+  position: relative;
+  top: -80px;
+  left: 300px;
   width: 180px;
   height: 60px;
   cursor: pointer;
